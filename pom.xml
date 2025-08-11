@@ -112,6 +112,7 @@
 		<module>auto-configurations/models/spring-ai-autoconfigure-model-vertex-ai</module>
 		<module>auto-configurations/models/spring-ai-autoconfigure-model-zhipuai</module>
 		<module>auto-configurations/models/spring-ai-autoconfigure-model-deepseek</module>
+		<module>auto-configurations/models/spring-ai-autoconfigure-model-qwen</module>
 
 		<module>auto-configurations/mcp/spring-ai-autoconfigure-mcp-client</module>
 		<module>auto-configurations/mcp/spring-ai-autoconfigure-mcp-server</module>
@@ -175,6 +176,7 @@
 		<module>models/spring-ai-vertex-ai-gemini</module>
 		<module>models/spring-ai-zhipuai</module>
 		<module>models/spring-ai-deepseek</module>
+		<module>models/spring-ai-qwen</module>
 
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-anthropic</module>
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-azure-openai</module>
@@ -193,6 +195,7 @@
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-vertex-ai-gemini</module>
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-zhipuai</module>
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-deepseek</module>
+		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-qwen</module>
 
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-chat-memory</module>
 		<module>spring-ai-spring-boot-starters/spring-ai-starter-model-chat-memory-repository-cassandra</module>
