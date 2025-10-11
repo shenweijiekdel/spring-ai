@@ -297,6 +297,12 @@ public class DeepSeekChatModel implements ChatModel {
 									.build());
 						}
 						else {
+							if (prompt.getOptions() instanceof DeepSeekChatOptions) {
+								DeepSeekChatOptions options = (DeepSeekChatOptions)prompt.getOptions();
+								// when tool_choice be set, must reset when push back to the model
+								options.setToolChoice(ChatCompletionRequest.ToolChoiceBuilder.AUTO);
+							}
+
 							// Send the tool execution result back to the model.
 							return this.internalStream(new Prompt(toolExecutionResult.conversationHistory(), prompt.getOptions()),
 									response);
